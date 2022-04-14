@@ -1,0 +1,85 @@
+/* Google Font CDN */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;600;700;800&display=swap");
+
+/* Google Font CDN */
+
+/* Browser reset code */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Browser reset code */
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 100%;
+  min-height: 500px;
+  max-width: 800px;
+  padding: 10px 10px;
+  background: #2d3436;
+  border-radius: 5px;
+}
+
+.todo-title {
+  color: beige;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#getTodo {
+  width: 75%;
+  padding: 10px 10px;
+  border: 1px solid yellow;
+}
+
+#getTodo:focus {
+  outline: 1px solid yellow;
+  border: none;
+}
+
+#addTodo {
+  width: 24%;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
+.paragraph {
+  color: #000000;
+  padding: 10px;
+  font-weight: 600;
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: blanchedalmond;
+}
+
+.deleteBtn {
+  cursor: pointer;
+}
+
+.addedTodoMsg {
+  padding: 10px;
+  font-weight: 600;
+  margin: 5px 0;
+  border-left: 3px solid green;
+  background-color: rgb(88, 152, 235);
+}
+
+.deletedTodoMsg {
+  padding: 10px;
+  font-weight: 600;
+  margin: 5px 0;
+  border-left: 3px solid rgb(240, 5, 5);
+  background-color: rgb(231, 210, 21);
+}
